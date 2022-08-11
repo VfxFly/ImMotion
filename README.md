@@ -8,11 +8,7 @@ ImMotions - make motions for your Dear ImGui!
 
 ### Usage
 
-**The core of Dear ImGui is self-contained within a few platform-agnostic files** which you can easily compile in your application/engine. They are all the files in the root folder of the repository (imgui*.cpp, imgui*.h).
-
-**No specific build process is required**. You can add the .cpp files to your existing project.
-
-After Dear ImGui is setup in your application, you can use it from \_anywhere\_ in your program loop:
+**1. Add extentions files in project with ImGui.
 
 Code:
 ```cpp
