@@ -6,6 +6,14 @@ ImMotions - make motions for your Dear ImGui!
 ### Requirements:
  - Dear-ImGui 1.88+
 
+### Available controls:
+ - Button
+ - Progress Button
+ - Toggle Button
+ - Progress Toggle Button
+ - Radio Button
+ - Check Box
+
 ### Usage
 
 **The controls use dependencies from ImGui, while not replacing the code of standard widgets/not overloading functions.
