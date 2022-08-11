@@ -3,6 +3,8 @@ ImMotions - make motions for your Dear ImGui!
 
 ### Dear ImGui extentions project.
 
+### Based on: https://github.com/bludeck/imgui-animated?ysclid=l6p36iuqiq122384304
+
 ### Requirements:
  - Dear-ImGui 1.88+
 
