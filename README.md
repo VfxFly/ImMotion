@@ -1,7 +1,7 @@
 ImMotions - make motions for your Dear ImGui!
 =====
 
-** ** Dear ImGui extentions project.
+### Dear ImGui extentions project.
 
 Requirements:
         1. Dear-ImGui 1.88+
