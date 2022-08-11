@@ -19,3 +19,8 @@ Code:
 ```
 #include "imgui_extentions.h"
 ```
+ 3. Place controls in window loop
+Code:
+```
+ImExt::Button("Button", {120.f, 27.f});
+```
