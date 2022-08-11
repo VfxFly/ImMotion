@@ -14,6 +14,7 @@ ImMotions - make motions for your Dear ImGui!
  - Toggle Button
  - Progress Toggle Button
  - Radio Button
+ - bludeck's Toggle Switch
  - Check Box
 
 ### Usage
