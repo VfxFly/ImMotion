@@ -12,3 +12,10 @@ ImMotions - make motions for your Dear ImGui!
 Extensions use their own namespace - ImExt.**
 
 ### You can use this as follows: 
+
+### 1. Add "imgui_extentions.h" & "imgui_extentions.cpp" in project
+### 2. Include header with directive:
+Code:
+```
+#include "imgui_extentions.h"
+```
