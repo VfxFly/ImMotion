@@ -42,5 +42,6 @@ Result:
 ImExt::Button("Button", {120.f, 27.f}, 0.5f);
 ```
 
-All controls preview:
+### All controls preview
+Taken in an example <br>!
 <br>![controls_example](https://github.com/VfxFly/ImMotion/blob/76f4480b84a368058dd831015a7bbd43e7e95047/Resources/ImMotion.gif)
