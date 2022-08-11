@@ -15,12 +15,10 @@ Extensions use their own namespace - ImExt.**
 
  1. Add "imgui_extentions.h" & "imgui_extentions.cpp" in project
  2. Include header with directive:
-Code:
 ```
 #include "imgui_extentions.h"
 ```
  3. Place controls in window loop
-Code:
 ```
 ImExt::Button("Button", {120.f, 27.f});
 ```
