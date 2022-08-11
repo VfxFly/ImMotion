@@ -36,5 +36,5 @@ ImExt::Button("Button", {120.f, 27.f});
 Result:
 <br>![button_example](https://github.com/VfxFly/ImMotion/blob/690cd0c802e56d2b48152d6e150a31205e93c926/Resources/Button.gif)
 
-### All controls preview:
+All controls preview:
 <br>![controls_example](https://github.com/VfxFly/ImMotion/blob/76f4480b84a368058dd831015a7bbd43e7e95047/Resources/ImMotion.gif)
