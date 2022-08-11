@@ -8,5 +8,5 @@ ImMotions - make motions for your Dear ImGui!
 
 ### Usage
 
-**The controls use dependencies from ImGui**, while not replacing the code of standard widgets/not overloading functions.
-**Extensions use their own namespace - ImExt.**
+**The controls use dependencies from ImGui, while not replacing the code of standard widgets/not overloading functions.
+Extensions use their own namespace - ImExt.**
