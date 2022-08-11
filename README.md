@@ -24,12 +24,13 @@ Extensions use their own namespace - ImExt.**
 
 ### You can use this as follows: 
 
- 1. Add "imgui_extentions.h" & "imgui_extentions.cpp" in project
- 2. Include header in code file
+ 1. Download [latest release](https://github.com/VfxFly/ImMotion/releases/tag/ImMotion) from this repository
+ 2. Add "imgui_extentions.h" & "imgui_extentions.cpp" in project
+ 3. Include header in code file
 ```
 #include "imgui_extentions.h"
 ```
- 3. Place controls in window
+ 4. Place controls in window
 ```
 ImExt::Button("Button", {120.f, 27.f});
 ```
