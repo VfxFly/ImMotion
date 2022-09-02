@@ -16,6 +16,7 @@ ImMotions - make motions for your Dear ImGui!
  - Radio Button
  - bludeck's Toggle Switch
  - Check Box
+ - Combo Box
 
 ### Usage
 
@@ -37,15 +38,18 @@ ImExt::Button("Button", {120.f, 27.f});
 Result:
 <br>![button_example](https://github.com/VfxFly/ImMotion/blob/690cd0c802e56d2b48152d6e150a31205e93c926/Resources/Button.gif)
 
+### Combo with elements drop animation
 ```
+const char* combo_preview;
 std::vector<const char*> elements;
+
 if (ImExt::BeginCombo("##combo", combo_preview, size))
 {
 	for (auto i : elements)
 	{
 		bool selected = (combo_preview == i);
 		if (ImGui::Selectable(i, selected))
-			test_combo_preview = i;
+			combo_preview = i;
 		if (selected)
 			ImGui::SetItemDefaultFocus();
 	}
@@ -53,7 +57,7 @@ if (ImExt::BeginCombo("##combo", combo_preview, size))
 }
 ```
 Result:
-<br>![combo_example](https://github.com/VfxFly/ImMotion/blob/690cd0c802e56d2b48152d6e150a31205e93c926/Resources/BeginCombo.gif)
+<br>![combo_example](https://github.com/VfxFly/ImMotion/blob/b8874bc82bca891dbbdd571db0bb184b4d885046/Resources/BeginCombo.gif)
 
 ### How to control animation speed?
 **Use control functions argument "dt"**
